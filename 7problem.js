@@ -8,7 +8,7 @@ function removingDuplicates(arr){
     for(let i=0; i< arr.length; i++){
 
         element = arr[i];
-        check = newArray.includes(element);
+        check = newArray.includes(element); //using includes() to check the element is exist or not
         if(check == false){
             newArray[x]=arr[i];
             x++;
